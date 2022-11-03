@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Geo&family=Roboto+Mono&display=swap');
+
+/* CSS Reset below- normalized settings to give
+more control of the elements to the developer */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* Usando agora o Boot-strap, a função de grid fica apenas
+por "container" e não precisa ser editada no css */
+
+/* .centralized-grid {
+    width: 1200px;
+    margin: 0 auto;
+} */
+
+.spacebetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+
+
+.blue-backgorund {
+    background-color: #3A4EA6;
+}
+
+
+/* Posição do Banner Principal */
+.position-banner {
+   width: 100%;
+   height: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+/* Deixando as coisas espaçadas umas das outras */
+.espacamento-banner {
+  height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+/* Conteúdos do Banner */
+.banner {
+height: 200px;
+
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+.banner-jogos {
+    background-image: url(/assets/img/Rectangle\ 2.png);
+
+}
+
+.banner-amigos {
+    background-image: url(/assets/img/Amigo\ rafa\ viagem\ Hotel\ Fazenda.jpeg);
+}
+
+.banner-chuva {
+    background-image: url(/assets/img/Reels\ Raining\ cats\ and\ dogs\ intagram.png);    
+}
+
+/* Estilos */
+.conteudo-banner { 
+width: 570px;
+height: 100%;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between ;
+
+
+    color: white;
+}
+
+.conteudo-banner h1 {
+    font-family: "Roboto Mono" ; 
+    /* or write "Roboto" betwen aspas "" */
+    /* If you want a font family that the computer
+    doens know, you can search for Google Fonts, 
+    copy the @import code and put on the top of the page
+    here in CSS, just like in this doc. Then, write down
+    the name of the fonts you added here and it will be done*/
+    font-weight: bold;
+    font-size: 35px;
+    background-color:whitesmoke;
+    border-radius: 5px;
+    color: black;
+
+}
+
+/* just remembering you, a is equal to text with 
+a link or the HiperLink or smt idk */
+.conteudo-banner a {
+
+    padding: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+
+font-family: Roboto Mono;
+font-size: 20px;
+font-weight: bold; 
+
+background-color: red ;
+border-radius: 40px;
+
+color: white; 
+
+}
+
+.colunas-frases p {
+    color: black;
+    background-color: deepskyblue;
+}
+
+.colunas-frases {
+    display: flex;
+    justify-content: space-between;
+    margin: 1%;
+}
+
+.box {
+width: 100%;
+height: 300px;
+/* border: 5px dashed red; */
+}
+
+.colunas-imagens {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.colunas-imagens img {
+    width: 80%;
+    height: 80%;
+
+}
+
+#hidden {
+    visibility: hidden ;
+}
+
+#bcMain {
+background-color: darkcyan;
+}
+
+
+
+/* No final de todos os estilos da página
+colocamos agora, se necessário, a parte que 
+torna a página responsiva. 
+Essa parte se chama: Media Query
+Fazemos ela da seguinte forma: */
+
+
+
+/* podemos fazer media query com QUALQUER
+ITEM/SECTION/CLASS no código inteiro
+Há possibilidade de fazer infinitos media
+query, mas a fins de organização, coloca-se
+geralmente a media query com maior width primeiro,
+já que esta vai imediatamente influenciar todas as 
+que estiverem abaixo dela */

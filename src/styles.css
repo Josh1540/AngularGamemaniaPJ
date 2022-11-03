@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Geo&family=Roboto+Mono&display=swap');
+
+/* CSS Reset below- normalized settings to give
+more control of the elements to the developer */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.spacebetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
