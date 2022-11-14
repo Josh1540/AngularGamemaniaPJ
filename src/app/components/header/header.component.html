@@ -12,7 +12,10 @@
                         <p>SEARCH BAR</p>
                         <a href="https://www.youtube.com/">Sobre a empresa</a>
                         <a href="references.html">Ver todos os produtos</a>
-                        <a routerLink="/login">Meu perfil</a>
+
+                        <a href="#" *ngIf="name">{{name}}</a>
+                        <a routerLink="/login" *ngIf="!name"  >Meu perfil</a>
+
                     </nav>
 <!-- AQUI SERÁ INSERIDO O MENU DE HAMBURGUER COM SUAS FINALIDADES -->
                         <!-- <a href="#" id="bars" onclick="mostrarMenu()"><img src="/assets/img/icons8-menu.svg" alt="Ícone Hambúrguer"></a> -->

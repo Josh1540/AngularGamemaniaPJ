@@ -54,7 +54,7 @@ por "container" e não precisa ser editada no css */
 
 /* Conteúdos do Banner */
 .banner {
-height: 200px;
+height: 350px;
 
 background-repeat: no-repeat;
 background-position: center;
@@ -62,16 +62,16 @@ background-size: cover;
 }
 
 .banner-jogos {
-    background-image: url(/assets/img/Rectangle\ 2.png);
+    background-image: url(/assets/img/kratos.jpeg);
 
 }
 
 .banner-amigos {
-    background-image: url(/assets/img/Amigo\ rafa\ viagem\ Hotel\ Fazenda.jpeg);
+    background-image: url(/assets/img/Hogwarts-Legacy-Horizontal-Key-Art.png);
 }
 
 .banner-chuva {
-    background-image: url(/assets/img/Reels\ Raining\ cats\ and\ dogs\ intagram.png);    
+    background-image: url(/assets/img/1.jpg);    
 }
 
 /* Estilos */
@@ -127,12 +127,15 @@ color: white;
 .colunas-frases p {
     color: black;
     background-color: deepskyblue;
+    font-size: x-large;
+    justify-content: center;
 }
 
 .colunas-frases {
     display: flex;
     justify-content: space-between;
-    margin: 1%;
+    margin: 0.2%;
+    
 }
 
 .box {

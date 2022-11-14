@@ -1,0 +1,12 @@
+{
+  "users": [
+    {
+      "email": "josh.amaral@email.com",
+      "password": "$2a$10$S2VLUR/nKL9kQ7g9MRTW3uXmdX1pt0/pjM9CjYa6ijTS8vNUwhfBS",
+      "nome": "Joshua",
+      "ano nascimento": 2028,
+      "id": 1
+    }
+  ],
+  "exemplo de recurso, tudo que precisamos CRUD (cadastrar, update, etc)": []
+}
